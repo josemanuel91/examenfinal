@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#contenedor {
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+.logo{
+    width: 100px; 
+    margin-bottom: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 20px; 
+}
+
+nav a {
+    margin: 10px; 
+    color: #333; 
+    text-decoration: none; 
+}
+
+nav a:hover {
+    text-decoration: underline; 
+    color: red;
+}
+
+.redes{
+    height: 50px;
+}
+
+h1{
+    text-align: center;
+    margin: 40px;
+    background-color: rgb(218, 61, 55);   
+    color: white;
+    padding: 15px;
+}
+#cajitas{
+    justify-content: center;
+    margin: 40px;
+    display: grid;
+    grid-template-areas: "izq   der"
+                         "abajo der";
+    grid-template-columns: 2fr 2fr ;
+    grid-template-rows: 200px 200px ;
+    padding: 10px;
+    gap: 10px;  
+
+      font-family: "Sour Gummy", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
+      
+    }
+.uno{
+    
+    grid-area: izq;
+}
+.dos{
+    grid-area: der;
+}
+.tres{
+    grid-area: abajo;
+}
+
+.nosotros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 70%; 
+    margin-top: 10%; 
+       
+}
+
+.caja.tres{
+    display: flex;
+    justify-content: center; 
+    align-items: center;      
+    gap: 10px;            
+} 
+
+footer {
+    text-align: center; 
+    margin-top: 20px;
+}
+
+h5{
+    margin: 40px;
+    background-color: rgb(218, 61, 55); 
+    padding: 20px;
+    color: white;
+}
+#contenido{
+    align-items: center;
+}
+
+.nosotros3{
+    width: 100%;
+    height: 100%;
+}

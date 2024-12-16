@@ -1,0 +1,28 @@
+.sobremi{
+    background-color: rgb(130, 140, 189);
+    padding: 7%;
+} 
+.card {
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+.card:hover {
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-body a {
+    margin: 2px;
+}
+
+.d-flex {
+    justify-content: center;
+    gap: 20px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
